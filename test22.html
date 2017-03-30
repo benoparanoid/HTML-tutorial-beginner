@@ -6,10 +6,19 @@
 <body>
 Playing Audio on HTML5<br>
 
-
-<audio controls="">
+<audio controls="audiocontrols">
 	<source src="Lana Del Rey - Love.mp3">
+	</audio>
+	<br><br>
+	This is a draggable controls. The receiver could be set using javascript
+	<br><br>
+<audio controls draggable="true">
+<!-- even without audiocontrols, it will play -->
 	<source src="love-lana.m4a">
-</audio>
+	</audio><br><br>
+	Autoplay with loop
+	<br><br>
+<audio controls autoplay loop=""><source src="love-lana.m4a"></audio>
+	
 </body>
 </html>
